@@ -293,3 +293,9 @@ __pycache__/
 *.btm.cs
 *.odx.cs
 *.xsd.cs
+
+# Post Upgrade Assistant
+ExtendedWPFToolkitSolution.backup/
+ExtendedWPFToolkitSolution/AnalysisReport.sarif
+ExtendedWPFToolkitSolution/upgrade-assistant.clef
+

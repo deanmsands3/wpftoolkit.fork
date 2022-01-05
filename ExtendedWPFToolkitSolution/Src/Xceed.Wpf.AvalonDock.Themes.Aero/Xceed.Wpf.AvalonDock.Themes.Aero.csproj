@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <Platforms>AnyCPU;x64</Platforms>
     <OutputType>Library</OutputType>
     <RootNamespace>Xceed.Wpf.AvalonDock.Themes</RootNamespace>
     <GenerateAssemblyInfo>false</GenerateAssemblyInfo>

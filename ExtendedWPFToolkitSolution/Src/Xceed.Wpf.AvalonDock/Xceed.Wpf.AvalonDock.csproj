@@ -2,12 +2,15 @@
   
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <Platforms>AnyCPU;x64</Platforms>
-    <OutputType>Library</OutputType>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWPF>true</UseWPF>
-    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <AssemblyName>Xceed.Wpf.AvalonDock</AssemblyName>
+    <RootNamespace>Xceed.Wpf.AvalonDock</RootNamespace>
+  </PropertyGroup>
+
 
   <ItemGroup>
     <ProjectReference Include="..\Xceed.Wpf.Toolkit\Xceed.Wpf.Toolkit.csproj" />
@@ -42,10 +45,5 @@
     <Resource Include="Themes\Generic\Images\PinMaximize.png" />
     <Resource Include="Themes\Generic\Images\PinRestore.png" />
   </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.261602">
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-  </ItemGroup>
+  
 </Project>

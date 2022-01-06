@@ -1,17 +1,24 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
-    <Platforms>AnyCPU;x64</Platforms>
-    <OutputType>Library</OutputType>
-    <RootNamespace>Xceed.Wpf.AvalonDock.Themes</RootNamespace>
-    <ExpressionBlendVersion>4.0.20901.0</ExpressionBlendVersion>
-    <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
     <UseWPF>true</UseWPF>
-    <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
+    <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
+
+  <PropertyGroup>
+    <GenerateAssemblyConfigurationAttribute>false</GenerateAssemblyConfigurationAttribute>
+    <GenerateAssemblyDescriptionAttribute>false</GenerateAssemblyDescriptionAttribute>
+    <GenerateAssemblyProductAttribute>false</GenerateAssemblyProductAttribute>
+    <GenerateAssemblyTitleAttribute>false</GenerateAssemblyTitleAttribute>
+    <GenerateAssemblyCompanyAttribute>false</GenerateAssemblyCompanyAttribute>
+    <GenerateAssemblyVersionAttribute>false</GenerateAssemblyVersionAttribute>
+  </PropertyGroup>
+
   <ItemGroup>
-    <AppDesigner Include="Properties\" />
+    <ProjectReference Include="..\Xceed.Wpf.AvalonDock\Xceed.Wpf.AvalonDock.csproj" />
   </ItemGroup>
+
   <ItemGroup>
     <Resource Include="Images\DockAnchorableBottom.png" />
     <Resource Include="Images\DockAnchorableLeft.png" />
@@ -49,12 +56,5 @@
     <Resource Include="Images\PinMenu_Black.png" />
     <Resource Include="Images\PinRestore_Black.png" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Xceed.Wpf.AvalonDock\Xceed.Wpf.AvalonDock.csproj" />
-  </ItemGroup>
-  <ItemGroup>
-    <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.261602">
-      <PrivateAssets>all</PrivateAssets>
-    </PackageReference>
-  </ItemGroup>
+  
 </Project>

@@ -1,37 +1,10 @@
-﻿/*************************************************************************************
-   
-   Toolkit for WPF
-
-   Copyright (C) 2007-2018 Xceed Software Inc.
-
-   This program is provided to you under the terms of the Microsoft Public
-   License (Ms-PL) as published at http://wpftoolkit.codeplex.com/license 
-
-   For more features, controls, and fast professional support,
-   pick up the Plus Edition at https://xceed.com/xceed-toolkit-plus-for-wpf/
-
-   Stay informed: follow @datagrid on Twitter or Like http://facebook.com/datagrids
-
-  ***********************************************************************************/
-
-using System.Reflection;
+﻿using System.Reflection;
 using System.Resources;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 using System.Windows;
 using System.Windows.Markup;
 using System;
-
-// General Information about an assembly is controlled through the following 
-// set of attributes. Change these attribute values to modify the information
-// associated with an assembly.
-[assembly: AssemblyTitle( "Xceed Toolkit for WPF - AvalonDock" )]
-[assembly: AssemblyDescription( "This assembly implements the Xceed.Wpf.AvalonDock namespace, a docking layout system for the Windows Presentation Framework." )]
-
-[assembly: AssemblyCompany( "Xceed Software Inc." )]
-[assembly: AssemblyProduct( "Xceed Toolkit for WPF - AvalonDock" )]
-[assembly: AssemblyCopyright( "Copyright (C) Xceed Software Inc. 2007-2018" )]
-[assembly: AssemblyCulture( "" )]
 
 
 

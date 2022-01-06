@@ -299,3 +299,6 @@ ExtendedWPFToolkitSolution.backup/
 ExtendedWPFToolkitSolution/AnalysisReport.sarif
 ExtendedWPFToolkitSolution/upgrade-assistant.clef
 
+# WinMerge Backups
+*.bak
+

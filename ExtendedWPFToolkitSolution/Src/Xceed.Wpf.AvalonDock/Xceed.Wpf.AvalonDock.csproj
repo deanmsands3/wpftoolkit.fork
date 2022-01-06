@@ -1,4 +1,5 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+  
   <PropertyGroup>
     <TargetFramework>net5.0-windows</TargetFramework>
     <Platforms>AnyCPU;x64</Platforms>
@@ -7,14 +8,11 @@
     <UseWPF>true</UseWPF>
     <ImportWindowsDesktopTargets>true</ImportWindowsDesktopTargets>
   </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DocumentationFile>
-    </DocumentationFile>
-  </PropertyGroup>
-  <PropertyGroup>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
-  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Xceed.Wpf.Toolkit\Xceed.Wpf.Toolkit.csproj" />
+  </ItemGroup>
+
   <ItemGroup>
     <AppDesigner Include="Properties\" />
   </ItemGroup>
@@ -41,16 +39,10 @@
     <Resource Include="Themes\Generic\Images\PinDocMenu.png" />
     <Resource Include="Themes\Generic\Images\PinMenu.png" />
     <Resource Include="Themes\Generic\Images\VTabGroup.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Themes\Generic\Images\PinMaximize.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Themes\Generic\Images\PinRestore.png" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Xceed.Wpf.Toolkit\Xceed.Wpf.Toolkit.csproj" />
-  </ItemGroup>
+
   <ItemGroup>
     <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.261602">
       <PrivateAssets>all</PrivateAssets>

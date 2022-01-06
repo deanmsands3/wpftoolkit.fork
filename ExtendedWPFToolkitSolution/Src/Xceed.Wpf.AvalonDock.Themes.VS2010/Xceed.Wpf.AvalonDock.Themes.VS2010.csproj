@@ -28,8 +28,6 @@
     <Resource Include="Images\DockDocumentTop.png" />
     <Resource Include="Images\DockPaneEmpty.png" />
     <Resource Include="Images\DockPaneLargeEmpty.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\HTabGroup.png" />
     <Resource Include="Images\Locked.png" />
     <Resource Include="Images\PinAutoHide.png" />
@@ -37,38 +35,22 @@
     <Resource Include="Images\PinDocMenu.png" />
     <Resource Include="Images\PinMenu.png" />
     <Resource Include="Images\VTabGroup.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\PinAutoHide_Dark.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\PinClose_Dark.png" />
     <Resource Include="Images\PinMenu_Dark.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\PinMaximize.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\PinRestore.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\PinMaximize_Dark.png" />
     <Resource Include="Images\PinRestore_Dark.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Xceed.Wpf.AvalonDock\Xceed.Wpf.AvalonDock.csproj" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\PinDocMenu_Black.png" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="Images\PinAutoHide_Black.png" />
     <Resource Include="Images\PinClose_Black.png" />
     <Resource Include="Images\PinMaximize_Black.png" />
     <Resource Include="Images\PinMenu_Black.png" />
+    <Resource Include="Images\PinRestore_Black.png" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="Images\PinRestore_Black.png" />
+    <ProjectReference Include="..\Xceed.Wpf.AvalonDock\Xceed.Wpf.AvalonDock.csproj" />
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="Microsoft.DotNet.UpgradeAssistant.Extensions.Default.Analyzers" Version="0.3.261602">
